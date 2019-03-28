@@ -1,5 +1,9 @@
 ## HEAD
 
+## [0.3.0](https://github.com/alxdhuang/minima-rock/commit/f44770bb139a508b0a9b856802bb4a576c591192)
+
+- Supporting tags archive pages.
+
 ## [0.2.0](https://github.com/alxdhuang/minima-rock/commit/c8ac6d5b08f3cb9740b334148cc9759c4af6cffb)
 
 - Supporting sharing posts to social media.
