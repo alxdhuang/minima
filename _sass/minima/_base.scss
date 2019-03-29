@@ -95,6 +95,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  color: gold;
   font-weight: $base-font-weight;
 }
 
@@ -108,7 +109,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken($brand-color, 10%);
   }
 
   &:hover {
@@ -149,10 +150,9 @@ blockquote {
  */
 pre,
 code {
+  font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
+  background-color: darken($background-color, 6%);
 }
 
 code {
@@ -160,6 +160,8 @@ code {
 }
 
 pre {
+  border: 2px solid $grey-color-dark;
+  border-radius: 3px;
   padding: 8px 12px;
   overflow-x: auto;
 
@@ -239,14 +241,14 @@ table {
   border: 1px solid $grey-color-light;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: lighten($background-color, 6%);
     }
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
+    background-color: lighten($background-color, 3%);
     border: 1px solid darken($grey-color-light, 4%);
     border-bottom-color: darken($grey-color-light, 12%);
   }

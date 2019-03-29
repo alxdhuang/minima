@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
+  border-top: 5px solid $brand-color;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -20,11 +20,6 @@
 
   @include media-query($on-palm) {
     padding-right: 45px;
-  }
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
   }
 }
 
