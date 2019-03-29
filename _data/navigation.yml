@@ -1,2 +1,4 @@
 - name: About
-  link: /about/
+  link: /about.html
+- name: Tags
+  link: /tags.html
