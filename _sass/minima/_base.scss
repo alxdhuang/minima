@@ -41,7 +41,9 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-
+strong {
+  color: white;
+}
 
 /**
  * `main` element
@@ -157,6 +159,7 @@ code {
 
 code {
   padding: 1px 5px;
+  color: tomato;
 }
 
 pre {
@@ -166,6 +169,7 @@ pre {
   overflow-x: auto;
 
   > code {
+    color: $text-color;
     border: 0;
     padding-right: 0;
     padding-left: 0;
