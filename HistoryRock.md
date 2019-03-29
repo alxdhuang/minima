@@ -1,5 +1,11 @@
 ## HEAD
 
+## [0.5.0](https://github.com/alxdhuang/minima-rock/commit/e3d649561559c9537a1c14ba02a68efb9c05ca19)
+
+- Supporting TOC.
+- Supporting MathJax.
+- An elegant way to insert images in posts.
+
 ## [0.4.0](https://github.com/alxdhuang/minima-rock/commit/a011b4e079afd696aa145c288934aaaa15b02f55)
 
 - Supporting tags cloud.
