@@ -22,3 +22,6 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
+
+kramdown:
+  parse_block_html: true
