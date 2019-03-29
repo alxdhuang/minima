@@ -1,5 +1,9 @@
 ## HEAD
 
+## [0.3.1](https://github.com/alxdhuang/minima-rock/commit/a4d06d4fd350eccf4a690b4e2f3ae3cd15851667)
+
+- Add `baseurl`.
+
 ## [0.3.0](https://github.com/alxdhuang/minima-rock/commit/f44770bb139a508b0a9b856802bb4a576c591192)
 
 - Supporting tags archive pages.
