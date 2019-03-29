@@ -1,5 +1,9 @@
 ## HEAD
 
+## [0.4.0](https://github.com/alxdhuang/minima-rock/commit/a011b4e079afd696aa145c288934aaaa15b02f55)
+
+- Supporting tags cloud.
+
 ## [0.3.1](https://github.com/alxdhuang/minima-rock/commit/a4d06d4fd350eccf4a690b4e2f3ae3cd15851667)
 
 - Add `baseurl`.
