@@ -2,7 +2,7 @@
 {% assign tags = page.tags | sort %}
 {% for tag in tags %}
   <span class="site-tag">
-    <a class="site-tag-text" href="/tags/{{ tag | slugify }}.html">{{ tag | replace:'-', ' ' }}</a>
+    <a class="site-tag-text" href="{{ site.baseurl }}/tags/{{ tag | slugify }}.html">{{ tag | replace:'-', ' ' }}</a>
   </span>
 {% endfor %}
 </div>
