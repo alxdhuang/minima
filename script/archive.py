@@ -1,5 +1,6 @@
 from glob import glob
 from sys import argv
+from slugify import slugify
 import os
 import re
 
@@ -51,7 +52,7 @@ if not os.path.isdir(output):
     os.mkdir(output)
 
 for tag in tags:
-    filename = output + "/" + tag + ".md"
+    filename = output + "/" + slugify(tag) + ".md"
     if not os.path.isfile(filename):
         f = open(filename, 'w')
         title = tag.replace('-', ' ')
