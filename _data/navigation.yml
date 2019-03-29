@@ -1,4 +1,6 @@
 - name: About
   link: /about.html
+- name: Categories
+  link: /categories.html
 - name: Tags
   link: /tags.html
