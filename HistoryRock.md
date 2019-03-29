@@ -1,5 +1,9 @@
 ## HEAD
 
+## [0.6.0](https://github.com/alxdhuang/minima-rock/commit/31cb10516851e4a4283aec686398cc4d9394c5d3)
+
+- Supporting categories archive.
+
 ## [0.5.0](https://github.com/alxdhuang/minima-rock/commit/e3d649561559c9537a1c14ba02a68efb9c05ca19)
 
 - Supporting TOC.
