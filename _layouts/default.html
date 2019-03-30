@@ -17,14 +17,16 @@
 
   </body>
 
-  <script>
-    const imgs = [
-      {%- for item in site.data.backgrounds -%}
-        '{{ item.name }}',
-      {%- endfor -%}
-    ];
-    const date = new Date();
-    const index = date.getDay() % imgs.length;
-    document.body.style.backgroundImage = `url('{{ site.baseurl }}${imgs[index]}')`;
-  </script>
+  {% if site.data.backgrounds %}
+    <script>
+      const imgs = [
+        {%- for item in site.data.backgrounds -%}
+          '{{ item.name }}',
+        {%- endfor -%}
+      ];
+      const date = new Date();
+      const index = date.getDay() % imgs.length;
+      document.body.style.backgroundImage = `url('{{ site.baseurl }}${imgs[index]}')`;
+    </script>
+  {% endif %}
 </html>
