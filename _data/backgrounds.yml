@@ -1,8 +1,8 @@
 # From https://www.transparenttextures.com/
 - name: '/assets/css/background/3px-tile.png'
-- name: 'assets/css/background/45-degree-fabric-light.png'
-- name: 'assets/css/background/back-pattern.png'
-- name: 'assets/css/background/batthern.png'
-- name: 'assets/css/background/bedge-grunge.png'
-- name: 'assets/css/background/brick-wall.png'
+- name: '/assets/css/background/45-degree-fabric-light.png'
+- name: '/assets/css/background/back-pattern.png'
+- name: '/assets/css/background/batthern.png'
+- name: '/assets/css/background/bedge-grunge.png'
+- name: '/assets/css/background/brick-wall.png'
 - name: '/assets/css/background/concrete-wall-2.png'
