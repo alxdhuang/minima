@@ -316,3 +316,9 @@
   border-radius: 6px;
   padding: 20px;
 }
+
+#search-input {
+  width: 100%;
+  font-size: $base-font-size * 1.6;
+  height: $base-font-size * 2;
+}

@@ -4,3 +4,5 @@
   link: /categories.html
 - name: Tags
   link: /tags.html
+- name: Search
+  link: /search.html
