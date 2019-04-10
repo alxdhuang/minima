@@ -11,6 +11,8 @@ baseurl: /minima-rock
 
 recent_posts: 10
 
+more_posts: /search.html
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format

@@ -29,6 +29,10 @@ layout: default
       {%- endfor -%}
     </ul>
 
+    {%- if site.more_posts -%}
+    <p>&raquo; <a href="{{ site.baseurl }}{{ site.more_posts }}">More posts...</a></p>
+    {%- endif -%}
+
     <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
   {%- endif -%}
 
