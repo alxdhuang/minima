@@ -154,7 +154,7 @@ pre,
 code {
   font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
   @include relative-font-size(0.9375);
-  background-color: darken($background-color, 6%);
+  background-color: #404040;
 }
 
 code {
